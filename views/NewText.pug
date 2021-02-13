@@ -1,0 +1,19 @@
+
+ 
+   
+doctype html
+html
+    head
+        title My Site - #{title}
+        style
+            include ./style.css
+    body
+       block nav
+            h1 Presantation of grapcad.com
+            ul(style="list-style-type: none;") 
+                li <a href="/"> home    </a>
+                li <a href='/OurService' > service </a>
+                li <a href='/ContactUs' > contact </a>      
+       block content
+
+   
